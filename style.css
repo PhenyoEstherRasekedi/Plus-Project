@@ -1,0 +1,108 @@
+body {
+  background-color: rgba(226, 128, 226, 0.472);
+}
+h1 {
+  font-family: ephesis;
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0;
+  position: relative;
+  left: -50px;
+}
+.current-city {
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0;
+}
+.current-details {
+  font-family: monospace;
+  color: rgba(39, 33, 66, 9.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.current-details strong {
+  color: pink;
+}
+
+p {
+  position: relative;
+  left: -200px;
+  top: 30px;
+}
+main,
+footer {
+  font-family: monospace;
+}
+header {
+  padding-bottom: 3px;
+}
+.search-input {
+  background-color: plum;
+  border: none;
+  font-size: 16px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.search-button {
+  font-size: 16px;
+  line-height: 1;
+  color: grey;
+  background-color: #ffc0cba4;
+  border: 1px solid rgba(226, 128, 226, 0.472);
+  padding: 20px 30px;
+  border-radius: 6px;
+  margin-left: 5px;
+  margin-left: 5px;
+  width: 25%;
+}
+
+footer {
+  opacity: 60%;
+  border-top: 1px solid rgb(226, 128, 226);
+  text-align: center;
+  padding-top: 15px;
+}
+
+.weather-app {
+  border: 1px solid white;
+  background-color: rgba(211, 119, 211, 0.431);
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(211, 119, 211, 0.431);
+}
+a {
+  color: hwb(350 76% 0%);
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.current-temperature-emoji {
+  font-size: 18px;
+  position: relative;
+  top: -5px;
+}
+
+.current-temperature-value {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.current-temperature-unit {
+  font-size: 18px;
+  position: relative;
+  top: -20px;
+}
+ul {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-around;
+}
