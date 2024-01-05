@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="weather app style.css" />
+  </head>
+  <body>
+    <div class="weather-app">
+      <header>
+        <form id="search-form">
+          <input
+            class="search-input"
+            type="search"
+            placeholder="Enter a City..."
+            required
+            id="search-input"
+          />
+          <input type="submit" value="search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <br />
+          <h1 id="current-city" class="current-city">Paris</h1>
+          <p class="current-details">
+            <span id="current-date"></span>, moderate rain
+            <br />
+            Humidity: <strong>87%,</strong> Wind:
+            <strong>7.2km/h</strong>
+          </p>
+          <div class="current-temperature">
+            <span class="current-temperature-emoji">⛅</span
+            ><span class="current-temperature-value">9</span
+            ><span class="current-temperature-unit">℃</span>
+          </div>
+        </div>
+        <ul>
+          <li class="forecast-weather">
+            Sat☀
+            <br />
+            <span class="temp-high">15°</span><span class="temp-low">9°</span>
+          </li>
+          <li class="forecast-weather">
+            Sun☁
+            <br />
+            <span class="temp-high">15°</span><span class="temp-low">10°</span>
+          </li>
+          <li class="forecast-weather">
+            Mon☁
+            <br />
+            <span class="temp-high">15°</span><span class="temp-low">10°</span>
+          </li>
+          <li class="forecast-weather">
+            Tue☁
+            <br />
+            <span class="temp-high">15°</span><span class="temp-low">11°</span>
+          </li>
+          <li class="forecast-weather">
+            Wed⛅
+            <br />
+            <span class="temp-high">14°</span><span class="temp-low">11°</span>
+          </li>
+        </ul>
+      </main>
+
+      <footer>
+        <small
+          >This project was coded by
+          <a href="" target="_blank">Phenyo Esther Rasekedi</a> and is
+          <a href="" target="_blank">open-sourced on Github</a> and
+          <a href="" target="_blank">hosted on Netlify</a>
+        </small>
+      </footer>
+
+      <script src="function.js"></script>
+    </div>
+  </body>
+</html>
