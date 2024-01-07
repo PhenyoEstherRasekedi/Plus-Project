@@ -1,15 +1,9 @@
 body {
   background-color: rgba(226, 128, 226, 0.472);
 }
-h1 {
-  font-family: ephesis;
-  font-size: 38px;
-  font-weight: bold;
-  margin: 0;
-  position: relative;
-  left: -50px;
-}
+
 .current-city {
+  font-family: ephesis;
   font-size: 38px;
   font-weight: 900;
   margin: 0;
